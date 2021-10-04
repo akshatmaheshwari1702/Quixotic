@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<style>
+  body
+  {
+    margin-top:px;
+  }
+  @font-face {
+  font-family: "averta";
+  src: url("../fonts/AvertaDemo-Regular.otf");                 
+}
+* {
+  font-family: averta;
+}
+  form {
+    border: 3px solid #f1f1f1;
+  }
+  h2
+  {
+    color: #BA5110;
+  }
+  input[type=text],
+  input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+   button {
+    background-color:brown;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+  }
+   
+  button:hover {
+    opacity: 0.8;
+  }
+   
+   .imgcontainer {
+    text-align: center;
+    margin: 1px 0 1px 0;
+    height: 50%;
+    width: 50%;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+     }
+  input[type=submit]
+       {
+       background-color: brown;
+       color: white;
+       cursor: pointer;
+       border-radius: 5px;
+       box-shadow: 5px white;
+       size: 100px;
+       height: 30px;
+       } 
+   input[type=checkbox]
+       {
+        margin-left: 300px;
+       }
+
+  .container {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #BA5110;
+    border-radius: 2px;
+  }
+  span.psw {
+    margin-left: 350px;
+    padding-top:px;
+    width: 200px;
+    }
+   }
+</style>
+
+<body>
+  <center>
+  <form action="login.jsp">
+    <div class="imgcontainer">
+      <img src="./assets/images/log.jpeg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <h2>LOGIN</h2>
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="u1" required>
+      <br>
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="u2" required>
+      <br>
+      <input type="submit"  value="Login">
+      <br><input type="checkbox">
+       Remember me
+    </div> 
+  </form>
+</center>
+</body>
+
+</html>
