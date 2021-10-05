@@ -272,7 +272,9 @@ padding-right: 0.5em;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
+.row {margin: 0 -5px; 
+  /* flex-wrap: nowrap; */
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -401,7 +403,7 @@ padding-right: 0.5em;
   align-items: center;
   column-gap: 10px;
 }
- /* footer */
+ /* footer----------------------------------------------------------------------------------------------- */
  footer{
   /* position: fixed; */
   background-color: #131e07;
